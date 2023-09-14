@@ -11,6 +11,30 @@
 				height: 200px;
 				width: auto;
 			}
+			#content {
+				width: 600px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			#second_section {
+				display: flex;
+				align-items: flex-start;
+				gap: 30px;
+			}
+			.second_section_columns {
+				width: 600px;
+				height: auto;
+			}
+			#third_section {
+				display: flex;
+				align-items: flex-start;
+				gap: 250px;
+			}
+			.third_section_columns {
+				width: 600px;
+				height: auto;
+			}
+
 		</style>
 	</head>
 
@@ -19,12 +43,24 @@
 
 		<p>Email Address: <a href="mailto:tommyqng@usc.edu">tommyqng@usc.edu</a>.</p>
 
+		<hr>
+
+		<div id="content">
+
+		<div id="second_section">
+
+		<div class="second_section_collumns">
+
 		<p>My favorite color is <strong>green</strong>.</p>
 
 		<p>Favorite Website: <a href="https://www.youtube.com/">Youtube</a>.</p>
         
         <p>Favorite Activity:</p>
         <img src="https://www.cabletv.com/app/uploads/2023/07/watching-movies-during-strike-1115x585.png" alt="Watching Movies">
+
+    </div>
+
+        <div class="second_section_collumns">
 
 		<p>Enrolled Courses:</p>
 		<ul>
@@ -34,17 +70,31 @@
 			<li>ANTH 204</li>
 			<li>IR 213</li>
 		</ul>
+	</div>
+</div> 
+
+	    <hr>
+
+	    <div id="third_section">
+
+	    <div class="third_section_collumns">
 
 		<p>Completed Assignments:</p>
 		<ul>
 			<li><a href="https://github.com/uscwebdev/itp104-submissions-tommyqng/blob/7c2795f0e88ca6c26accfd4b02dc728e8e83bc93/assignment_01/assignment_01.html">Assignment 1</a></li>
 			<li><a href="https://github.com/uscwebdev/itp104-submissions-tommyqng/blob/6bc78405d76c467a138362bfc93b71c07ebdc548/assignment_02/assignment_02.html">Assignment 2</a></li>
 		</ul>
+	</div>
+
+	    <div class="third_section_collumns">
 
 		<p>Completed Labs:</p>
 		<ul>
 			<li><a href="index.html">Lab 2</a>.</li>
 			<li><a href="https://github.com/uscwebdev/itp104-submissions-tommyqng/blob/53f080146f3429fc7eff8ca775422b26a77c3541/lab_03/lab_03_assignment_01.html">Lab 3</a></li>
 		</ul>
+	</div>
+	</div>
+	</div>
 	</body>
 </html>
