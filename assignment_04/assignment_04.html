@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tommy Nguyen | Calendar</title>
+	<style>
+		body {
+			margin: 0px;
+		}
+		h1 {
+			margin: 0px;
+		}
+		#header {
+			background-image: url('img/img_01.jpeg');
+			background-size: cover;
+			background-position: center;
+			color: #FFF;
+			font-size: 1.5em;
+			text-align: center;
+			text-shadow: 0px 0px 10px #000;
+			height: 400px;
+			line-height: 500px;
+		}
+		table {
+			width: 100%;
+     		border: 1px solid;
+			border-collapse: collapse;
+		}
+		th {
+			border: 1px solid #000;
+			padding: 10px 0px;
+		}
+		td {
+			border: 1px solid #000;
+			padding: 10px 10px;
+			width: 148.75px;
+			height: 100px;
+			vertical-align: text-top;
+			text-align: right;
+			margin-right: 10px;
+		}
+		.event {
+			vertical-align: middle;
+			text-align: center;
+			background-color: beige;
+		}
+		#first_event_img {
+			background-image: url('img/img_02.jpeg');
+			background-size: cover;
+		}
+		#second_event_img {
+			background-image: url('img/img_03.jpeg');
+			background-size: cover;
+		}
+		#third_event_img {
+			background-image: url('img/img_04.jpeg');
+			background-size: cover;
+		}
+		.overlap {
+			opacity: 0.5;
+		}
+		strong {
+			color: white;
+			text-shadow: 0px 0px 10px #000;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="header">
+		<h1>August 2023</h1>
+	</div>
+
+	<table>
+			
+			<tr>
+				<th>Sunday</th>
+				<th>Monday</th>
+				<th>Tuesday</th>
+				<th>Wednesday</th>
+				<th>Thursday</th>
+				<th>Friday</th>
+				<th>Saturday</th>
+			</tr>
+
+			<tr>
+				<td class="overlap">30</td>
+				<td class="overlap">31</td>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td id="first_event_img"><strong>4</strong> <div class="event">My 21st Birthday</div></td>
+				<td>5</td>
+			</tr>
+
+			<tr>
+				<td>6</td>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+				<td>10</td>
+				<td>11</td>
+				<td>12</td>
+			</tr>
+
+			<tr>
+				<td>13</td>
+				<td>14</td>
+				<td>15</td>
+				<td>16</td>
+				<td>17</td>
+				<td>18</td>
+				<td>19</td>
+			</tr>
+
+			<tr>
+				<td>20</td>
+				<td id="second_event_img"><strong>21</strong><div class="event">First Day of Class</div></td>
+				<td>22</td>
+				<td>23</td>
+				<td>24</td>
+				<td id="third_event_img"><strong>25</strong> <div class="event">OC Trip</div></td>
+				<td>26</td>
+			</tr>
+
+			<tr>
+				<td>27</td>
+				<td>28</td>
+				<td>29</td>
+				<td>30</td>
+				<td>31</td>
+				<td class="overlap">1</td>
+				<td class="overlap">2</td>
+			</tr>
+
+
+
+
+
+		</table>
+
