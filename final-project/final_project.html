@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    
+        <link rel = "stylesheet" href = "csspage.css">
+        <meta name = "description" content = "Homepage for Vietnamese Gang at EF Academy">
+        
+        <title>Vietnamese Gang at EF Academy NY</title>
+        
+        <style>
+            #collumn1{
+                width: 230px;
+                float: left;
+                background-color: white;
+                margin-left: 0px;
+                margin-right: 10px;
+                padding: 10px;
+            }
+            #collumn2{
+                width: 600px;
+                padding: 10px;
+                float: left;
+                background-color: white;
+                margin-right: 0px;
+            }
+            .description{
+                font-style: italic;
+                font-size: .7em;
+                line-height: 13px;
+            }
+            .sideimage{
+                width: 180px;
+                height: auto;
+                margin-left: 10%;
+                display: block;
+                margin-bottom: 20px;
+            }
+            h2{
+                text-align: center;
+            }
+            #surveytext{
+                text-align: center;
+                border-top: 2px solid saddlebrown;
+                padding-top: 10px;
+                color: saddlebrown;
+            }
+            textarea{
+                border-radius: 5px;
+                color: #514428;
+                font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+                width: 175px;
+                height: 50px;
+                font-size: .8em;
+            }
+            .form-row {
+            margin: 10px 0px;
+            display: flex;
+        }
+        .form-column {
+            width: 200px;
+        }
+        #submit-btn {
+            background-color: purple;
+            color: #FFF;
+        }
+        .about-text{
+                font-size: .8em;
+                line-height: 15px;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        
+        <div id = "main">
+    
+            <div id = "title">
+
+                <h1>Vietnamese Gang at EF Academy New York</h1>
+
+            </div>
+            
+            <img src = "img/img_01.jpeg" id = "topimage" alt = "Performance">
+        
+            <div id = "navbar">
+
+                <div id = "nav">
+
+                    <ul>
+                        <li><a href = "final_project.html" id = "active-nav">Homepage</a></li>
+                        <li>
+                            <a href = "">Events</a>
+                            <ul>
+                                <li><a href = "gathering_night.html">Gathering Night</a></li>
+                                <li><a href = "lunar_new_year.html">Lunar New Year</a></li>
+                                <li><a href = "culture_fair.html">Culture Fair</a></li>
+                            </ul>
+                        </li>
+                        <li><a href = "faq.html">FAQ</a></li>
+                    </ul>
+
+                    <div class="clearfloat"></div>
+
+                </div>
+
+            </div>
+            
+            <div id = "block">
+                
+                <div id = "collumn2">
+                
+                    <h2>OUR MISSION</h2>
+                    <p class = "about-text">The EF Academy's Vietnamese Student Association (aka Vietnamese Gang) strives to serve both the  student body and the entire school community. Through the promotion of cultural projects and events, we hope to enrich campus life and become a significant part of the diverse high school community.</p>
+                    <p class = "about-text">We want to celebrate our Vietnamese heritage, values, and traditions, as well as educate and share it with those interested in Vietnamese culture.</p>
+                    <p class = "about-text">We want to reinforce the values we hold dear, as they form the structure of our culture and community.</p>
+                    <p class = "about-text">We want to provide an open and welcoming space for our members, not only for social activities, but also for the discussion of important topics and issues.</p>
+                    <p class = "about-text">We want to connect with and reach out to the broader Vietnamese community outside of campus and maintain a strong network that everyone can participate in.</p>
+                    <p class = "about-text">Below is a video of EF Academy that covers the goals that we are trying to achieve:</p>
+            
+                    <br>
+                    
+                   <iframe id="iframe" width="560" height="315" src="https://www.youtube.com/embed/yayv3WLgYf4?si=mRFZ58Zgwk3hEBAG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <br>
+
+                    <p class = "about-text">In light of the current political climate, we aim to promote civic engagement by equipping members with the skills and resources necessary to advocate for our community’s needs while closely collaborating with other communities in the fight for equity and justice.By embracing our cultural heritage as well as our refugee and immigrant experiences, we will continue to shed light on our unique Vietnamese culture and history both on and off campus.</p>
+                    
+                </div>
+
+                <div id = "collumn1">
+                
+                    <h2>EVENTS</h2>
+                    
+                    <a href = "gathering_night.html" target = "_blank">Gathering Night</a>
+                    <p class = "description">The night when we all gathered and get to know more about each other</p>
+                    <img class = "sideimage" src = "img/img_02.jpeg" alt = "Gathering Night">
+                    
+                    <a href = "lunar_new_year.html" target = "_blank">Lunar New Year</a>
+                    <p class = "description">The most anticipated performance of the year</p>
+                    <img class = "sideimage" src = "img/img_03.jpeg" alt = "Lunar New Year">
+                    
+                    <a href = "culture_fair.html" target = "_blank">Culture Fair</a>
+                    <p class = "description">End the year on a good note with an exchange of all cultures</p>
+                    <img class = "sideimage" src = "img/img_04.jpeg" alt = "Culture Fair">
+                    
+                    <br>
+                    <p id = "surveytext">Contact Us</p>
+                    
+                    <p class = "description">Leave your information here and we will reach out to you as soon as possible</p>
+                    
+                    <form action="final_confirmation.html">
+            
+            <div class="form-row">
+                <div class="form-column">
+                    <label for="name-id">Name:</label>
+                </div>
+                <input type="text" id="name-id" placeholder="Kevin Nguyen">
+            </div>
+
+            <div class="form-row">
+                <div class="form-column">
+                    <label for="email-id">Email:</label>
+                </div>
+                <input type="email" id="email-id" placeholder="kevinng@gmail.com">
+            </div>
+
+            <div class="form-row">
+                <div class="form-column">
+                    <label for="message-id">Question:</label>
+                </div>
+                <textarea id="message-id" placeholder="Type your questions here"></textarea>
+            </div>
+
+            <div class="form-row">
+                <button id="submit-btn" type="submit">Submit</button>
+                <button type="reset">Reset Form</button>
+            </div>
+
+        </form>
+                    
+                </div>
+                
+                <div class = "clearfloat"></div>
+                
+            </div>
+            
+        </div>
+
+    </body>
+    
+</html>

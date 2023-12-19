@@ -1,0 +1,136 @@
+.clearfloat{
+    clear: both;
+}
+body{
+    background-image: url(img/img_11.jpeg);
+    cursor: url('final_project_img/cursor.png'), auto;
+}
+#main{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    padding-top: 1px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#title{
+    height: 100px;
+    line-height: 100px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: saddlebrown;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+#topbar{
+    background-color: lightyellow;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#topimage{
+    height: 400px;
+    width: inherit;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+}
+#nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#nav li {
+    background-color: lightyellow;
+    width: 180px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+}
+#nav li:hover {
+    background-color: #DDD;
+}
+#nav a {
+    display: block;
+    text-decoration: none;
+    color: saddlebrown;
+    border-bottom: 2px hidden saddlebrown;
+}
+a:hover{
+    cursor: url('final_project_img/clickcursor.png'), auto;
+}
+#nav #active-nav{
+    border-bottom: 2px solid saddlebrown;
+}
+#nav ul ul {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    visibility: hidden;
+}
+#nav {
+    width: 540px;
+    margin: auto;
+}
+#nav li:hover > ul {
+    visibility: visible;
+}
+#navbar {
+    background-color: lightyellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 540px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    margin-bottom: 12px;
+}
+#block{
+    margin-top: 10px;
+    padding: 10px;
+    width: 880px;
+    background-color: lightyellow;
+}
+h2, p{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+h2{
+    color: saddlebrown;
+}
+a{
+    text-decoration: none;
+    color: saddlebrown;
+    text-decoration-line: underline;
+}
+.centered{
+    text-align: center;
+}
+/*the scrollbar*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #BBB; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: url("final_project_img/gradient-linear-purple-grey-1920x1080-c2-778899-d8bfd8-a-180-f-14.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-image: url("final_project_img/a055db4fb664e38674990457d70ed84c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
